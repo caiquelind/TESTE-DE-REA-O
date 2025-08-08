@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TESTE SUA REAÇÃO</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Teste de Reação F1</h1>
+
+        <div id="lights-container">
+            <div class="light"></div>
+            <div class="light"></div>
+            <div class="light"></div>
+            <div class="light"></div>
+            <div class="light"></div>
+        </div>
+
+        <div id="reaction-area" role="button" aria-label="Área de Reação">
+            <p id="message">Clique em "Iniciar Jogo" para começar</p>
+        </div>
+        
+        <button id="startButton">Iniciar Jogo</button>
+
+        <div id="leaderboard">
+            <h2>Tabela de Tempos</h2>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Pos.</th>
+                        <th>Tempo (ms)</th>
+                        <th>Data</th>
+                    </tr>
+                </thead>
+                <tbody id="leaderboard-body">
+                    <!-- Pontuações serão inseridas aqui via JS -->
+                </tbody>
+            </table>
+             <button id="clearButton">Limpar Tabela</button>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
